@@ -1,11 +1,4 @@
 baseURL = 'https://Yufan-bot1.github.io/my-blog/'
-languageCode = 'zh-cn'
-title = '我的个人博客'
-theme = 'PaperMod'
-
-[menu]
-  [[menu.main]]
-    identifier = "archives"
-    name = "归档"
-    url = "/archives/"
-    weight = 10
+languageCode = 'en-us'
+title = 'My Personal Blog'
+theme = 'anatole'

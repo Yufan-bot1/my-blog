@@ -32,11 +32,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.123.7'
           extended: true
-
-      - name: Setup Sass
-        uses: lvarayut/setup-sass@v1
 
       - name: Build
         run: hugo --minify

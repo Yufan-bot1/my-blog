@@ -35,8 +35,8 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Install Dart Sass
-        run: sudo apt-get install -y sass
+      - name: Setup Sass
+        uses: lvarayut/setup-sass@v1
 
       - name: Build
         run: hugo --minify

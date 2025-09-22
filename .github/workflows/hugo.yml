@@ -35,6 +35,12 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Setup Dart
+        uses: dart-lang/setup-dart@v1
+
+      - name: Install Dart Sass
+        run: dart pub global activate sass
+
       - name: Build
         run: hugo --minify
 
